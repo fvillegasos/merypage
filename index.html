@@ -5,15 +5,20 @@
     </head>
     <body>
         <h1 class="my-h1">¿Quieres ser mi novia?</h1>
+        <div class="heart-div"></div>
         <div style="display: flex;">
             <div class="my-div"></div>
             <div class="my-div">
-                <button>Sí</button>
+                <button id="yes-btn" class="my-btn">Sí</button>
             </div>
             <div class="my-div">
-                <button id="no-btn">No</button>
+                <button id="no-btn" class="my-btn">No</button>
             </div>
             <div class="my-div"></div>
+        </div>
+        <div id="image-modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-img">
         </div>
         <script src="js/main.js"></script>
     </body>
